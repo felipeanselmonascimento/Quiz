@@ -27,6 +27,10 @@ form.addEventListener('submit', event => {
 
     let counter = 0;
 
+    if (counter === score){
+        result.querySelector('span').textContent = `${counter} %`
+    }
+
     const idSet = setInterval(() => {
         if (counter === score){
             clearInterval(idSet)
@@ -34,5 +38,4 @@ form.addEventListener('submit', event => {
         }
         result.querySelector('span').textContent = `${++counter} %`
     }, 10)
-
 })
