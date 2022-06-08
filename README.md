@@ -1,4 +1,2 @@
 # Quiz
- first quiz
- 
- https://felipeanselmonascimento.github.io/Quiz/ !
+https://felipeanselmonascimento.github.io/Quiz/ !
